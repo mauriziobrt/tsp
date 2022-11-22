@@ -2846,7 +2846,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -5204,7 +5204,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -7521,13 +7521,13 @@
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/externals";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../../externals\n";
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/jit-includes\"",
 					"$(inherited)",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -7541,18 +7541,18 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/jit-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes/..\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/script/../include\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/../../min-api/test\"",
 					"$(inherited)",
 					"\"/opt/homebrew/Cellar/or-tools/9.4/include/\"",
 					"\"/opt/homebrew/Cellar/abseil/20220623.1/include/\"",
 					"\"/opt/homebrew/Cellar/protobuf/21.9_1/include\"",
+					"\"$(SRCROOT)/../../min-api/test\"",
+					"\"$(SRCROOT)/../../min-api/include\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes/..\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
 				);
-				INFOPLIST_FILE = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/dynamictsp.dir/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CMakeFiles/dynamictsp.dir/Info.plist";
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -12037,7 +12037,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = .;
 				PRODUCT_NAME = dynamictsp;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -18913,7 +18913,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -18924,13 +18924,13 @@
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/externals/RelWithDebInfo";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../../externals/RelWithDebInfo";
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/jit-includes\"",
 					"$(inherited)",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -18944,18 +18944,18 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/jit-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes/..\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/script/../include\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/../../min-api/test\"",
 					"$(inherited)",
 					"\"/opt/homebrew/Cellar/or-tools/9.4/include/\"",
 					"\"/opt/homebrew/Cellar/abseil/20220623.1/include/\"",
 					"\"/opt/homebrew/Cellar/protobuf/21.9_1/include\"",
+					"\"$(SRCROOT)/../../min-api/test\"",
+					"\"$(SRCROOT)/../../min-api/include\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes/..\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
 				);
-				INFOPLIST_FILE = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/dynamictsp.dir/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CMakeFiles/dynamictsp.dir/Info.plist";
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -23441,7 +23441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = .;
 				PRODUCT_NAME = dynamictsp;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -23510,7 +23510,7 @@
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = "$(inherited)";
 			};
@@ -28099,13 +28099,13 @@
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/externals/MinSizeRel";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../../externals/MinSizeRel";
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/jit-includes\"",
 					"$(inherited)",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -28119,18 +28119,18 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/jit-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes/..\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/script/../include\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/../../min-api/test\"",
 					"$(inherited)",
 					"\"/opt/homebrew/Cellar/or-tools/9.4/include/\"",
 					"\"/opt/homebrew/Cellar/abseil/20220623.1/include/\"",
 					"\"/opt/homebrew/Cellar/protobuf/21.9_1/include\"",
+					"\"$(SRCROOT)/../../min-api/test\"",
+					"\"$(SRCROOT)/../../min-api/include\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes/..\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
 				);
-				INFOPLIST_FILE = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/dynamictsp.dir/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CMakeFiles/dynamictsp.dir/Info.plist";
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -32616,7 +32616,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = .;
 				PRODUCT_NAME = dynamictsp;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wall",
@@ -32683,13 +32683,13 @@
 			buildSettings = {
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/externals";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../../../externals\n";
 				EXECUTABLE_PREFIX = "";
 				EXECUTABLE_SUFFIX = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/c74support/jit-includes\"",
 					"$(inherited)",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
 				);
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -32703,18 +32703,18 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/msp-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/jit-includes\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/max-sdk-base/script/../c74support/max-includes/..\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/min-api/script/../include\"",
-					"\"/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/../../min-api/test\"",
 					"$(inherited)",
 					"\"/opt/homebrew/Cellar/or-tools/9.4/include/\"",
 					"\"/opt/homebrew/Cellar/abseil/20220623.1/include/\"",
 					"\"/opt/homebrew/Cellar/protobuf/21.9_1/include\"",
+					"\"$(SRCROOT)/../../min-api/test\"",
+					"\"$(SRCROOT)/../../min-api/include\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes/..\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/max-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/jit-includes\"",
+					"\"$(SRCROOT)/../../min-api/max-sdk-base/c74support/msp-includes\"",
 				);
-				INFOPLIST_FILE = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/dynamictsp.dir/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CMakeFiles/dynamictsp.dir/Info.plist";
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -37200,7 +37200,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = .;
 				PRODUCT_NAME = dynamictsp;
 				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp";
+				SYMROOT = "$(SRCROOT";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = (
 					"-Wall",

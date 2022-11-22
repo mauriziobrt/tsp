@@ -123,7 +123,7 @@ public:
                 v1.push_back((int) scale_map(b.lookup(i,1)));
                 v2.push_back(v1);
             }
-        }
+        
         
         // Instantiate the data problem.
         DataModel data;
@@ -161,6 +161,7 @@ public:
 //
 //        // Print solution on console.
         PrintSolution(manager, routing, *solution);
+        }
     }
 
     // respond to the bang message to do something
