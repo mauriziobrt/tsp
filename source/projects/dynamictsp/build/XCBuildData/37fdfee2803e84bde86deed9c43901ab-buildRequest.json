@@ -1,0 +1,74 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "53d0e4d0ec3e82240ba694b98c1c73416ec19fa8c034e1896266f427e18d49b5"
+    },
+    {
+      "guid" : "53d0e4d0ec3e82240ba694b98c1c7341a5583bda2efc96a00cacf14f6884eca5"
+    },
+    {
+      "guid" : "53d0e4d0ec3e82240ba694b98c1c73417eebc0ad71c861174f385bebbd3b010d"
+    },
+    {
+      "guid" : "53d0e4d0ec3e82240ba694b98c1c7341e613b3bb6666cdcf45bb481e5d602dc3"
+    },
+    {
+      "guid" : "53d0e4d0ec3e82240ba694b98c1c73418c5f2f67c232ed44a95e116b56668da1"
+    },
+    {
+      "guid" : "53d0e4d0ec3e82240ba694b98c1c7341b40a21dc984e2c9f67c8d3e48c8a530d"
+    }
+  ],
+  "containerPath" : "/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/dynamictsp.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/maurizioberta/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/maurizioberta/Library/Developer/Xcode/DerivedData/dynamictsp-azumxpaggaqhjhdxsyuicbwutwgf/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/maurizioberta/Library/Developer/Xcode/DerivedData/dynamictsp-azumxpaggaqhjhdxsyuicbwutwgf/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

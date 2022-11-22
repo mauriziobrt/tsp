@@ -1,0 +1,14 @@
+Target dependency graph (6 targets)
+mock_kernel in dynamictsp, no dependencies
+ZERO_CHECK in dynamictsp, no dependencies
+dynamictsp_test in dynamictsp, depends on:
+mock_kernel in dynamictsp (explicit)
+ZERO_CHECK in dynamictsp (explicit)
+dynamictsp in dynamictsp, depends on:
+ZERO_CHECK in dynamictsp (explicit)
+ALL_BUILD in dynamictsp, depends on:
+dynamictsp_test in dynamictsp (explicit)
+mock_kernel in dynamictsp (explicit)
+dynamictsp in dynamictsp (explicit)
+ZERO_CHECK in dynamictsp (explicit)
+RUN_TESTS in dynamictsp, no dependencies

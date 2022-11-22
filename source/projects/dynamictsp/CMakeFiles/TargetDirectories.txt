@@ -1,0 +1,9 @@
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/dynamictsp.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/dynamictsp_test.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/RUN_TESTS.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/ALL_BUILD.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/CMakeFiles/ZERO_CHECK.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/mock/CMakeFiles/mock_kernel.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/mock/CMakeFiles/RUN_TESTS.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/mock/CMakeFiles/ALL_BUILD.dir
+/Users/maurizioberta/Documents/Max 8/Packages/tsp/source/projects/dynamictsp/mock/CMakeFiles/ZERO_CHECK.dir

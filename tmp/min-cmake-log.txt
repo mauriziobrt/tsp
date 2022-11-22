@@ -1,0 +1,1 @@
+sh: /Users/maurizioberta/Documents/Max 8/Packages/min-devkit/script/cmake-mac/bin/cmake: Permission denied
